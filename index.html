@@ -3,181 +3,118 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>BijHommels | Natuurvriendelijke oplossingen voor bijen en hommels</title>
-    <meta
-      name="description"
-      content="BijHommels helpt tuinen, scholen en bedrijven met bij- en hommelvriendelijke plekken, advies en ambachtelijke producten."
-    />
-    <meta property="og:title" content="BijHommels" />
-    <meta
-      property="og:description"
-      content="Natuurvriendelijke oplossingen, advies en producten voor meer leven in iedere tuin."
-    />
-    <meta property="og:image" content="assets/hero-bijhommels.png" />
+    <title>BijHommels</title>
+    <meta name="description" content="BijHommels" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="BijHommels home">
-        <span class="brand-mark">BH</span>
-        <span>BijHommels</span>
+      <a class="brand" href="/" aria-label="BijHommels home">
+        <img class="site-logo" src="ChatGPTLogo.png" alt="" />
+        <span class="brand-text">
+          <span class="brand-name">BijHommels</span>
+        </span>
       </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-        <span class="sr-only">Menu openen</span>
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav id="site-nav" class="site-nav" aria-label="Hoofdnavigatie">
-        <a href="#diensten">Diensten</a>
+      <nav class="header-nav" aria-label="Hoofdnavigatie">
+        <a href="#over-mij">Over mij</a>
         <a href="#werkwijze">Werkwijze</a>
-        <a href="#over">Over</a>
-        <a class="nav-cta" href="#contact">Contact</a>
+        <a href="#contact">Contact</a>
+        <a href="#faq">FAQ</a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Voor tuinen, scholen en bedrijven</p>
-          <h1 id="hero-title">Meer leven rond bijen, hommels en bloemen.</h1>
-          <p class="hero-text">
-            BijHommels maakt buitenplekken sterker voor bestuivers met praktisch advies,
-            inheemse beplanting en zorgvuldig gemaakte nest- en schuilplekken.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#contact">Vraag advies aan</a>
-            <a class="button secondary" href="#diensten">Bekijk diensten</a>
+    <main class="home-board" aria-label="BijHommels informatie">
+      <section class="intro-copy">
+        <span class="note-label">BijHommels</span>
+        <h1>Bijles in exacte vakken</h1>
+        <p>Bovenbouw wiskunde, natuurkunde en scheikunde uitgelegd op een rustige en persoonlijke manier.</p>
+      </section>
+
+      <section id="over-mij" class="content-section about-section">
+        <div class="section-divider"></div>
+        <div class="about-layout">
+          <div class="content-copy">
+            <span class="note-label">Over mij</span>
+            <h2>Koen Hommels</h2>
+            <p>
+              Ik geef nu al <span data-years-since="2023">3</span> jaar bijles.
+              Daarnaast geef ik schaaklessen op basisscholen en werkgroepen op de
+              universiteit. Eigenlijk doe ik van alles wat, waardoor ik breed kan
+              kijken naar wat iemand nodig heeft en verschillende manieren van uitleg
+              kan proberen. Ik studeer zelf ook nog: momenteel doe ik de BSc AI.
+            </p>
           </div>
-        </div>
-        <div class="hero-media" aria-hidden="true">
-          <img src="assets/hero-bijhommels.png" alt="" />
+
+          <aside class="photo-note" aria-label="Foto van Koen Hommels">
+            <img src="FotoKoenHommels.jpeg" alt="Koen Hommels" />
+          </aside>
         </div>
       </section>
 
-      <section class="intro-band" aria-label="Kernpunten">
-        <div>
-          <strong>Ecologisch</strong>
-          <span>Keuzes die passen bij bodem, seizoen en lokale soorten.</span>
-        </div>
-        <div>
-          <strong>Praktisch</strong>
-          <span>Advies dat uitvoerbaar blijft voor onderhoud en budget.</span>
-        </div>
-        <div>
-          <strong>Ambachtelijk</strong>
-          <span>Degelijke materialen en oplossingen met lange levensduur.</span>
-        </div>
-      </section>
-
-      <section id="diensten" class="section">
-        <div class="section-heading">
-          <p class="eyebrow">Wat BijHommels doet</p>
-          <h2>Diensten voor plekken waar bestuivers welkom zijn.</h2>
-        </div>
-        <div class="service-grid">
-          <article class="service-card">
-            <span class="service-icon">01</span>
-            <h3>Tuinadvies</h3>
+      <section id="werkwijze" class="work-section" aria-labelledby="work-title">
+        <div class="section-divider"></div>
+        <div class="work-layout">
+          <div class="work-copy">
+            <span class="note-label">Hoe ga ik te werk?</span>
+            <h2 id="work-title">Lessen plannen op een manier die past.</h2>
             <p>
-              Een helder plan voor nectar, stuifmeel, nestgelegenheid en beschutting door het jaar heen.
+              Ik plan meestal na de les samen met de leerling een nieuwe les in.
+              Dat kan ook gewoon via de app. Als er wat meer tijd tussen de lessen
+              zit, is dat geen probleem: bijles kan per week, maar ook alleen
+              richting toetsen.
             </p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">02</span>
-            <h3>Bij- en hommelhotels</h3>
             <p>
-              Handgemaakte verblijfplekken met geschikte materialen, juiste plaatsing en onderhoudsadvies.
+              Een bijles duurt meestal 2 uur. Ik reken op het kwartier, zodat de
+              tijd eerlijk aansluit op wat we echt doen.
             </p>
-          </article>
-          <article class="service-card">
-            <span class="service-icon">03</span>
-            <h3>Workshops</h3>
-            <p>
-              Korte sessies voor teams, klassen of buurtgroepen over biodiversiteit in de praktijk.
-            </p>
-          </article>
+          </div>
+
+          <aside class="tariff-note" aria-label="Tarief">
+            <span class="note-label">Tarief</span>
+            <strong>30 euro</strong>
+            <p>per uur</p>
+          </aside>
         </div>
+        <div class="section-divider"></div>
       </section>
 
-      <section id="werkwijze" class="process">
-        <div class="process-copy">
-          <p class="eyebrow">Aanpak</p>
-          <h2>Rustig kijken, slim kiezen, netjes uitvoeren.</h2>
-          <p>
-            Elke plek is anders. Daarom begint BijHommels met wat er al groeit, waar zon en wind zitten,
-            en hoeveel onderhoud realistisch is. Daarna volgt een concreet voorstel.
-          </p>
-        </div>
-        <ol class="steps">
-          <li>
-            <span>1</span>
-            <div>
-              <h3>Inventarisatie</h3>
-              <p>Een korte opname van locatie, wensen, gebruik en kansen voor bestuivers.</p>
-            </div>
-          </li>
-          <li>
-            <span>2</span>
-            <div>
-              <h3>Voorstel</h3>
-              <p>Een compact advies met planten, materialen, planning en onderhoud.</p>
-            </div>
-          </li>
-          <li>
-            <span>3</span>
-            <div>
-              <h3>Realisatie</h3>
-              <p>Hulp bij aanleg, plaatsing of begeleiding zodat de plek goed kan starten.</p>
-            </div>
-          </li>
-        </ol>
-      </section>
-
-      <section id="over" class="section about">
+      <section id="contact" class="contact-note">
         <div>
-          <p class="eyebrow">Over BijHommels</p>
-          <h2>Kleine ingrepen, groot verschil voor de natuur dichtbij.</h2>
+          <span class="note-label">Contact</span>
+          <h2>Vraag een bijles aan.</h2>
+          <p>Stuur een WhatsApp-bericht naar +31 6 38323500.</p>
         </div>
-        <p>
-          BijHommels is er voor mensen die hun buitenruimte mooier en nuttiger willen maken voor
-          bijen, hommels en andere bestuivers. De stijl is nuchter: doen wat werkt, uitleggen waarom,
-          en zorgen dat het ook op lange termijn klopt.
-        </p>
+        <a class="whatsapp-button" href="https://wa.me/31638323500">Stuur een appje</a>
       </section>
 
-      <section id="contact" class="contact">
-        <div class="contact-copy">
-          <p class="eyebrow">Contact</p>
-          <h2>Vertel kort wat je wilt verbeteren.</h2>
-          <p>
-            Gebruik het formulier om een email te starten. Vervang het emailadres in
-            <code>script.js</code> zodra je zakelijke adres bekend is.
-          </p>
+      <section id="faq" class="faq-section" aria-labelledby="faq-title">
+        <div class="section-divider"></div>
+        <div class="faq-content">
+          <span class="note-label">FAQ</span>
+          <h2 id="faq-title">Veelgestelde vragen</h2>
+          <details>
+            <summary>Is de proefles gratis?</summary>
+            <p>Nee. De eerste les is een betaalde proefles, zodat we kunnen kijken of de aanpak goed past.</p>
+          </details>
+          <details>
+            <summary>Online of fysiek?</summary>
+            <p>Mijn bijlessen zijn altijd fysiek. Het liefst spreek ik af in de OBA Oosterdok.</p>
+          </details>
+          <details>
+            <summary>Doe je alleen bovenbouw?</summary>
+            <p>
+              Ik geef zelf alleen bijles aan de bovenbouw. Mijn zusje geeft ook
+              bijles en doet juist onderbouw. Als je haar nummer wilt, stuur dan
+              even een appje naar mij.
+            </p>
+          </details>
         </div>
-        <form class="contact-form" id="contact-form">
-          <label>
-            Naam
-            <input name="name" autocomplete="name" required />
-          </label>
-          <label>
-            Email
-            <input name="email" type="email" autocomplete="email" required />
-          </label>
-          <label>
-            Bericht
-            <textarea name="message" rows="5" required></textarea>
-          </label>
-          <button class="button primary" type="submit">Verstuur aanvraag</button>
-        </form>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>&copy; <span id="year"></span> BijHommels</span>
-      <a href="#top">Terug naar boven</a>
+      <span>BijHommels</span>
+      <span>Bijles in wiskunde en exacte vakken</span>
     </footer>
-
-    <script src="script.js"></script>
   </body>
 </html>
